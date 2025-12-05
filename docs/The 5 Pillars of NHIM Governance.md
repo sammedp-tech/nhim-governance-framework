@@ -1,5 +1,5 @@
-
-## 🏛️ The 5 Pillars of NHIM Governance
+# Introduction to Non-Human Identity Management (NHIM)
+## The 5 Pillars of NHIM Governance 
 
 Enterprise NHIM programs succeed when they are built on these five pillars:
 
