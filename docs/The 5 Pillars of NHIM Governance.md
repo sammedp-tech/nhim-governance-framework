@@ -94,7 +94,7 @@ NHIM is not a standalone function. It sits **in the middle** of your identity se
           │          PAM          │
           │ Vaulting & Rotation   │
           └───────────────────────┘
-
+```text
 ### 🧭 IAM, NHIM, and PAM Relationship
 
 - **IAM** handles identity creation and lifecycle  
