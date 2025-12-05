@@ -3,7 +3,7 @@
 
 ---
 
-## 🧠 Why NHIM Matters More Than Ever
+### 🧠 Why NHIM Matters More Than Ever
 
 Enterprises today have **10–50× more non-human identities than human identities** — service accounts, bots, workloads, scripts, integrations, APIs, schedulers, containers, pipelines.
 
@@ -39,7 +39,7 @@ Without NHIM, these systems remain siloed and inconsistent.
 
 ---
 
-## 🔐 What Counts as a Non-Human Identity?
+### 🔐 What Counts as a Non-Human Identity?
 
 Non-human identities (NHIs) include any identity that performs an action **without a human logging in directly**.
 
