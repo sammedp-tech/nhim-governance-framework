@@ -1,25 +1,6 @@
 # Introduction to Non-Human Identity Management (NHIM)
 ## NHIM Governance 
 
-### 🚀 The Goal of NHIM Programs
-
-The mission of an NHIM program can be summarized as:
-
-> **“Every non-human identity must have an owner, a purpose, a lifecycle, a risk classification, and a secured credential.”**
-
-When NHIM is done well:
-
-- Operational load on teams goes down  
-- Credential-related incidents decrease  
-- PAM onboarding becomes structured and predictable  
-- Audits become faster and less painful  
-- Secrets sprawl is reduced  
-- Cloud and on-prem identities are treated consistently  
-
-> NHIM is not merely a bridge between IAM and PAM — it is an independent governance function that coordinates machine identities across IAM, PAM, cloud platforms, secrets managers, and automation systems.
-
----
-
 ### The 5 Pillars of NHIM Governance 
 Enterprise NHIM programs succeed when they are built on these five pillars:
 
@@ -94,36 +75,3 @@ Monitoring must cover:
 Dashboards should expose the **health of the NHIM ecosystem**, not just tool status.
 
 ---
-
-### ⚠️ Common NHIM Anti-Patterns (Seen Everywhere)
-
-These patterns show up in almost every large environment:
-
-- “Everything is just a service account” → no classification, no governance  
-- 15-year-old Windows service accounts with static passwords  
-- Credentials hidden in `web.config`, PowerShell scripts, Jenkins, pipelines  
-- PAM vault onboarding done without knowing the owner  
-- Rotation breaks applications because dependencies were undocumented  
-- No application-to-identity mapping  
-- Treating NHIM as a “PAM feature” instead of an enterprise program  
-
-Recognizing these early helps build a more realistic roadmap.
-
----
-
-### 📈 NHIM Maturity Model
-
-Use this simple maturity model to assess where an organization stands:
-
-| Level | Maturity   | Characteristics                                         |
-|-------|-----------|----------------------------------------------------------|
-| 0     | Unmanaged | Unknown NHI inventory, hardcoded secrets everywhere      |
-| 1     | Basic     | Partial inventory, manual rotation, owners unclear       |
-| 2     | Defined   | Ownership defined, basic policies, vault in limited use  |
-| 3     | Managed   | Automated rotation, classification adopted, monitored    |
-| 4     | Optimized | Full lifecycle automation, cloud-native, continuous review |
-
-Most large enterprises sit between **Level 1 and Level 2**, even with PAM tools deployed.
-
----
-
