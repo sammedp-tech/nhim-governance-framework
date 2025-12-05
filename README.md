@@ -47,3 +47,6 @@ nhim-governance-framework/
 │  ├─ nhim-architecture.png
 │  ├─ nhim-lifecycle.png
 └─ README.md
+
+
+If you can contribute to this project please reach out. 
