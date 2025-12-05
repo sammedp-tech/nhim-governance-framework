@@ -39,7 +39,6 @@ nhim-governance-framework/
 │  ├─ control-objectives.md
 │  ├─ governance-model.md
 │  ├─ onboarding-framework.md
-│  ├─ nhim-across-pam-iam.md
 │  └─ operating-model/
 │     ├─ roles-and-responsibilities.md
 │     ├─ raci-matrix.md
@@ -47,5 +46,4 @@ nhim-governance-framework/
 ├─ diagrams/
 │  ├─ nhim-architecture.png
 │  ├─ nhim-lifecycle.png
-│  ├─ nhim-integration-pam-iam.png
 └─ README.md
