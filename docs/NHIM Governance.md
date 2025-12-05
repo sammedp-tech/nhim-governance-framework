@@ -16,7 +16,7 @@ When NHIM is done well:
 - Secrets sprawl is reduced  
 - Cloud and on-prem identities are treated consistently  
 
-NHIM is not merely a bridge between IAM and PAM — it is an independent governance function that coordinates machine identities across IAM, PAM, cloud platforms, secrets managers, and automation systems.
+> NHIM is not merely a bridge between IAM and PAM — it is an independent governance function that coordinates machine identities across IAM, PAM, cloud platforms, secrets managers, and automation systems.
 
 ---
 
