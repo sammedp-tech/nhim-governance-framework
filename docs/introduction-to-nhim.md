@@ -20,6 +20,24 @@ This creates the **single largest blind spot** in identity security.
 **NHIM is the next frontier of enterprise identity governance.**
 
 ---
+### 🧭 NHIM in the Modern Identity Ecosystem
+
+NHIM is no longer just a connector between IAM and PAM.  
+It has evolved into an independent governance function that spans:
+
+- IAM (identity creation and lifecycle)
+- PAM (privileged credential security)
+- Cloud workload identity platforms (AWS IAM Roles, Azure Managed Identities)
+- Secrets management tools (Vault, Conjur, Akeyless, 1Password)
+- Certificate & machine identity systems (Venafi, AppViewX, Keyfactor)
+- DevOps automation ecosystems (CI/CD, GitHub OIDC, Kubernetes)
+
+NHIM provides the governance layer — ownership, classification, lifecycle, risk —  
+while these platforms implement the actual identity and credential controls.
+
+Without NHIM, these systems remain siloed and inconsistent.
+
+---
 
 ## 🔐 What Counts as a Non-Human Identity?
 
