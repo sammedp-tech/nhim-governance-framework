@@ -1,7 +1,5 @@
 # Introduction to Non-Human Identity Management (NHIM)
 ## Securing Machine, Service & Workload Identities Across Hybrid Enterprises  
-**Author:** *Sammed Patil*  
-**Theme:** Securing Privileged Access at Enterprise Scale
 
 ---
 
