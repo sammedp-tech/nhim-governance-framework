@@ -1,9 +1,29 @@
 # Introduction to Non-Human Identity Management (NHIM)
-## The 5 Pillars of NHIM Governance 
+## NHIM Governance 
 
+### 🚀 The Goal of NHIM Programs
+
+The mission of an NHIM program can be summarized as:
+
+> **“Every non-human identity must have an owner, a purpose, a lifecycle, a risk classification, and a secured credential.”**
+
+When NHIM is done well:
+
+- Operational load on teams goes down  
+- Credential-related incidents decrease  
+- PAM onboarding becomes structured and predictable  
+- Audits become faster and less painful  
+- Secrets sprawl is reduced  
+- Cloud and on-prem identities are treated consistently  
+
+NHIM is not merely a bridge between IAM and PAM — it is an independent governance function that coordinates machine identities across IAM, PAM, cloud platforms, secrets managers, and automation systems.
+
+---
+
+### The 5 Pillars of NHIM Governance 
 Enterprise NHIM programs succeed when they are built on these five pillars:
 
-### 1️⃣ Classification
+#### 1️⃣ Classification
 
 Not all NHIs have equal risk.  
 A classification model reduces chaos and helps focus effort:
@@ -17,7 +37,7 @@ Classification is the foundation for **policy, onboarding priority, and controls
 
 ---
 
-### 2️⃣ Ownership & Accountability
+#### 2️⃣ Ownership & Accountability
 
 Every non-human identity must have:
 
@@ -30,7 +50,7 @@ No owner = **automatic non-compliance** and long-term risk. Always follow "No On
 
 ---
 
-### 3️⃣ Lifecycle Governance
+#### 3️⃣ Lifecycle Governance
 
 NHIs must follow a controlled lifecycle from creation to deletion.
 
@@ -46,7 +66,7 @@ Lifecycle governance enforces **order over chaos** and prevents privilege creep.
 
 ---
 
-### 4️⃣ Policy Enforcement
+#### 4️⃣ Policy Enforcement
 
 Policies should answer:
 
@@ -60,7 +80,7 @@ Policies convert **intent → standardization → enforcement**.
 - to be updated later
 ---
 
-### 5️⃣ Monitoring & Reporting
+#### 5️⃣ Monitoring & Reporting
 
 Monitoring must cover:
 
@@ -72,35 +92,6 @@ Monitoring must cover:
 - Anomalous authentication patterns or access behavior  
 
 Dashboards should expose the **health of the NHIM ecosystem**, not just tool status.
-
----
-
-## 🧭 NHIM in the PAM + IAM + Cloud Security Ecosystem
-
-NHIM is not a standalone function. It sits **in the middle** of your identity security stack:
-
-          ┌───────────────────────┐
-          │          IAM          │
-          │  Identity Lifecycle   │
-          └───────────┬───────────┘
-                      │
-          ┌───────────▼───────────┐
-          │          NHIM         │
-          │ Governance & Control  │
-          └───────────┬───────────┘
-                      │
-          ┌───────────▼───────────┐
-          │          PAM          │
-          │ Vaulting & Rotation   │
-          └───────────────────────┘
-
-### 🧭 IAM, NHIM, and PAM Relationship
-
-- **IAM** handles identity creation and lifecycle  
-- **NHIM** governs ownership, classification, lifecycle, and risk  
-- **PAM** secures credentials, sessions, and privileged operations  
-
-Without NHIM, IAM and PAM are **disconnected islands**.
 
 ---
 
@@ -136,21 +127,3 @@ Most large enterprises sit between **Level 1 and Level 2**, even with PAM tools 
 
 ---
 
-### 🚀 The Goal of NHIM Programs
-
-The mission of an NHIM program can be summarized as:
-
-> **“Every non-human identity must have an owner, a purpose, a lifecycle, a risk classification, and a secured credential.”**
-
-When NHIM is done well:
-
-- Operational load on teams goes down  
-- Credential-related incidents decrease  
-- PAM onboarding becomes structured and predictable  
-- Audits become faster and less painful  
-- Secrets sprawl is reduced  
-- Cloud and on-prem identities are treated consistently  
-
-NHIM is the **missing link** between IAM maturity and PAM success.
-
----
