@@ -79,7 +79,6 @@ Dashboards should expose the **health of the NHIM ecosystem**, not just tool sta
 
 NHIM is not a standalone function. It sits **in the middle** of your identity security stack:
 
-```text
           ┌───────────────────────┐
           │          IAM          │
           │  Identity Lifecycle   │
@@ -94,7 +93,7 @@ NHIM is not a standalone function. It sits **in the middle** of your identity se
           │          PAM          │
           │ Vaulting & Rotation   │
           └───────────────────────┘
-```text
+
 ### 🧭 IAM, NHIM, and PAM Relationship
 
 - **IAM** handles identity creation and lifecycle  
