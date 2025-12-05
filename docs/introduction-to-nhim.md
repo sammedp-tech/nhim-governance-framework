@@ -52,6 +52,7 @@ Non-human identities (NHIs) include any identity that performs an action **witho
 | **Automation Identities**    | RPA bots, DevOps pipelines, schedulers                     |
 | **Integration Identities**   | ESB services, connectors, middleware accounts              |
 | **Embedded Secrets**         | Credentials in config files, scripts, Jenkins, Dockerfiles |
+| **AI**                       | Accounts/Secrets/Keys used by AI agents/LLMs               |
 
 NHIM is not just “PAM for service accounts” — it is **full-scope governance** over all these identities.
 
