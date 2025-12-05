@@ -27,9 +27,9 @@ It has evolved into an independent governance function that spans:
 
 - IAM (identity creation and lifecycle)
 - PAM (privileged credential security)
-- Cloud workload identity platforms (AWS IAM Roles, Azure Managed Identities)
-- Secrets management tools (Vault, Conjur, Akeyless, 1Password)
-- Certificate & machine identity systems (Venafi, AppViewX, Keyfactor)
+- Cloud workload identity platforms (ex-AWS IAM Roles, Azure Managed Identities)
+- Secrets management tools (ex-Vault, Conjur, Akeyless, 1Password)
+- Certificate & machine identity systems (ex-Venafi, AppViewX, Keyfactor)
 - DevOps automation ecosystems (CI/CD, GitHub OIDC, Kubernetes)
 
 NHIM provides the governance layer — ownership, classification, lifecycle, risk —  
